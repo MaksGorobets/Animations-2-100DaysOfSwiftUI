@@ -11,6 +11,7 @@
 		E94FD6E92AFBC1020035453C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E94FD6E82AFBC1020035453C /* ContentView.swift */; };
 		E94FD6EB2AFBC1040035453C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E94FD6EA2AFBC1040035453C /* Assets.xcassets */; };
 		E94FD6EE2AFBC1040035453C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E94FD6ED2AFBC1040035453C /* Preview Assets.xcassets */; };
+		E9BD8A172AFD0503006F61FB /* TranListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9BD8A162AFD0503006F61FB /* TranListView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		E94FD6E82AFBC1020035453C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		E94FD6EA2AFBC1040035453C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E94FD6ED2AFBC1040035453C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		E9BD8A162AFD0503006F61FB /* TranListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TranListView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +53,7 @@
 		E94FD6E52AFBC1020035453C /* AnimationsDay2 */ = {
 			isa = PBXGroup;
 			children = (
+				E9BD8A162AFD0503006F61FB /* TranListView.swift */,
 				E94FD6E62AFBC1020035453C /* AnimationsDay2App.swift */,
 				E94FD6E82AFBC1020035453C /* ContentView.swift */,
 				E94FD6EA2AFBC1040035453C /* Assets.xcassets */,
@@ -138,6 +141,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E94FD6E92AFBC1020035453C /* ContentView.swift in Sources */,
+				E9BD8A172AFD0503006F61FB /* TranListView.swift in Sources */,
 				E94FD6E72AFBC1020035453C /* AnimationsDay2App.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -272,8 +276,10 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"AnimationsDay2/Preview Content\"";
+				DEVELOPMENT_TEAM = XUYF93872P;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSFaceIDUsageDescription = "Unlock your data";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -300,8 +306,10 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"AnimationsDay2/Preview Content\"";
+				DEVELOPMENT_TEAM = XUYF93872P;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSFaceIDUsageDescription = "Unlock your data";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
